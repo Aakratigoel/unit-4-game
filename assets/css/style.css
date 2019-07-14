@@ -1,0 +1,21 @@
+body
+{
+    background: url('../images/gemBackground.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+/* #button1
+{
+    background:url('../images/gem1.png');
+    width: 200px;
+    height:200px;
+} */
+#img3
+{
+    position: relative;
+    left: 23px;
+}
+#img4
+{
+    position: relative;
+    left: 50px;
+}
