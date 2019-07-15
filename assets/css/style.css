@@ -1,4 +1,4 @@
-body
+#body1
 {
     background: url('../images/gemBackground.jpeg') no-repeat center center fixed;
     background-size: cover;
@@ -78,6 +78,7 @@ body
 #p1
 {
     font-size: 25px;
-    color:white;
+    color:darkred;
     font-weight: bold;
+    float:left;
 }
