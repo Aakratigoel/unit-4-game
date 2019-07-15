@@ -14,12 +14,14 @@ $(document).ready(function () {
     var maxb1 = 12;
     var minb1 = 1;
     $("#div1").text(totalNumber);
+    $("#div4").text(userScore);
     $("#img1").val(Math.floor(Math.random() * (maxb1 - minb1) + minb1));
     $("#img2").val(Math.floor(Math.random() * (maxb1 - minb1) + minb1));
     $("#img3").val(Math.floor(Math.random() * (maxb1 - minb1) + minb1));
     $("#img4").val(Math.floor(Math.random() * (maxb1 - minb1) + minb1));
   }
   function checkVal() {
+    $("#div4").text(userScore);
     console.log("Entered Checkval");
     if (userScore === totalNumber) {
       wins++;
